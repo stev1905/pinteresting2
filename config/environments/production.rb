@@ -75,8 +75,8 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
+  config.active_record.dump_schema_after_migration = falseS
 
   #note to set to actual hostname 
-  config.action_mailer.default_url_options = { 'cbs-pinteresting.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
