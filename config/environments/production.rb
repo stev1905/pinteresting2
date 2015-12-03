@@ -78,5 +78,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #note to set to actual hostname 
-  config.action_mailer.default_url_options = { :host =>'#'}
+  config.action_mailer.default_url_options = { 'cbs-pinteresting.herokuapp.com' }
 end
