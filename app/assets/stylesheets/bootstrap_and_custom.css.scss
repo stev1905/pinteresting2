@@ -1,7 +1,21 @@
-$body-bg: 	#7f8c8d;
-$navbar-default-bg: #2c3e50;
-$navbar-default-link-color: white;
-$brand-primary: #f39c12;
-$jumbotron-bg: #ecf0f1;
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+$body-bg: 						#7f8c8d;
+$font-family-sans-serif:		'Titillium+Web','Helvetica Neue', Helvetica, Arial, San-serif;
+$navbar-height:					45px;
+$navbar-default-bg: 			#2c3e50;
+$navbar-default-brand-color: 	#ecf0f1;
+$brand-primary: 				#f39c12;
+$jumbotron-bg: 					#ecf0f1;
+$navbar-default-link-color:		#ecf0f1;
+
 
 @import 'bootstrap';
+
+.center{
+	text-align: center;
+}
+
+.navbar-brand{				
+	font-weight: 			bold;
+}
