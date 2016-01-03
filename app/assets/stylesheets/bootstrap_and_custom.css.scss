@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 $body-bg: 						#7f8c8d;
 $font-family-sans-serif:		'Titillium+Web','Helvetica Neue', Helvetica, Arial, San-serif;
